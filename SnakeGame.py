@@ -124,6 +124,7 @@ def game_loop():
                 snake_y = screen_height
             if snake_y > screen_height:
                 snake_y = 0
+            # This below 4 lines of code is to do gameover on touch snake with walls
             # if snake_x < 0 or snake_x > screen_width or snake_y < 0 or snake_y > screen_height:
             #     game_over = True
             #     pygame.mixer.music.load("bomb.mp3")
